@@ -1,7 +1,40 @@
 <html>
+<head>
+<link rel="stylesheet" href="animate.css">
+ <script src="jquery.min.js"></script>
+    <script>
+ function myFunction1() {
+ setTimeout(function(){}, 1000);
+     $("#i1").removeClass()
+	 $("#i1").addClass("animated swing")
+	 $("#i1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', myFunction2);
+}
+ function myFunction2() {
+ setTimeout(function(){}, 1000);
+     $("#i1").removeClass()
+	 $("#i1").addClass("animated fadein")
+	 $("#i1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', myFunction3);
+}
 
+function myFunction3() {
+ setTimeout(function(){}, 1000);
+     $("#i1").removeClass()
+	 $("#i1").addClass("animated flip")
+	 $("#i1").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', myFunction1);
+}
+    $( window ).load(function() {
+        console.log( "window loaded" )
+		setTimeout(myFunction1(),1000);
+
+		
+    });
+    </script>
+</head>
 <body>
+<p align=center>
+<img id= "i1" src="photo.jpg" >
+<br>
 Mr.Han
-
+</p>
 </body>
 </html>
