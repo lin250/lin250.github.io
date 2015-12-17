@@ -6,7 +6,7 @@ for (var i = 0; i < paragraphs.length; i++) {
   paragraph.style.setProperty("color", "white", null);
 }
 ```
-*is equal to*
+**is equal to**
 ```javascript
 d3.selectAll("p").style("color", "white");
 ```
