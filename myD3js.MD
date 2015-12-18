@@ -22,7 +22,11 @@ d3.selectAll("p").style("color", "white");
 ```javascript
 d3.select("body").style("background-color", "black");
 ```
-
+```javascript
+d3.selectAll("p").style("color", function() {
+  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+});
+```
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
