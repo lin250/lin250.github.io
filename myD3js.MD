@@ -1,4 +1,12 @@
 #d3js
+**start to use**
+```javascript
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+```
+
+
+
+
 ```javascript
 var paragraphs = document.getElementsByTagName("p");
 for (var i = 0; i < paragraphs.length; i++) {
