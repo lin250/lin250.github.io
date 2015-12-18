@@ -10,6 +10,11 @@ for (var i = 0; i < paragraphs.length; i++) {
 ```javascript
 d3.selectAll("p").style("color", "white");
 ```
+**examples**
+```javascript
+d3.select("body").style("background-color", "black");
+```
+
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
