@@ -16,3 +16,4 @@ In some situations, when the attribute value itself contains double quotes, it i
 <style>
 <link>
 ```
+HTML <pre> element defines preformatted text.
