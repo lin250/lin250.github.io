@@ -6,6 +6,6 @@ html version
 ```
 <!DOCTYPE html>
 ```
-HTML headings are defined with the <h1> to <h6> tags:
+HTML headings are defined with the <h1> to <h6> tags.
 
 Paragraph title will display as a tooltip.
