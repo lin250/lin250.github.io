@@ -1,3 +1,4 @@
+```
 Application\Home\Controller\IndexController.class.php
 http://localhost/index.php/home/index/hello
 http://localhost/index.php/home/index/hello/name/jack
@@ -28,3 +29,4 @@ Application\Home\Conf\config.php
 'DB_PORT'=>3306,// 端口
 //'DB_PREFIX'=>'think_',// 数据库表前缀
 'DB_CHARSET'=>'utf8',// 数据库字符集
+```
