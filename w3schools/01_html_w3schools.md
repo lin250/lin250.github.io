@@ -35,3 +35,10 @@ Computer Code Elements: `<code><kbd><samp><var><pre>`
 <!-- Write your comments here -->
 ```
 There is an exclamation point (!) in the opening tag, but not in the closing tag.
+
+Conditional Comments:
+```
+<!--[if IE 8]>
+    .... some HTML here ....
+<![endif]-->
+```
