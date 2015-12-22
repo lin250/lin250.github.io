@@ -47,6 +47,17 @@ CSS stands for Cascading Style Sheets
 Styling can be added to HTML elements in 3 ways:
 ```
 Inline - using a style attribute in HTML elements
+    <h1 style="color:blue;">This is a Blue Heading</h1>
 Internal - using a <style> element in the HTML <head> section
+    <head>
+    <style>
+    body {background-color:lightgrey;}
+    h1   {color:blue;}
+    p    {color:green;}
+    </style>
+    </head>
 External - using one or more external CSS files
+    <head>
+      <link rel="stylesheet" href="styles.css">
+    </head>
 ```
