@@ -26,10 +26,7 @@ Semantic html is using html to reinforce structural meaning. It’s about using 
 
 Text Formatting: `<b><em><i><small><strong><sub><sup><ins><del><mark>`
 
-Quotation and Citation: `<abbr>
-<address>
-<bdo>
-<blockquote>
-<cite>
-<q>`
+Quotation and Citation: `<abbr><address><bdo><blockquote><cite><q>`
+
+Computer Code Elements: `<code><kbd><samp><var><pre>`
 
