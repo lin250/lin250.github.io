@@ -42,3 +42,11 @@ Conditional Comments:
     .... some HTML here ....
 <![endif]-->
 ```
+CSS stands for Cascading Style Sheets
+
+Styling can be added to HTML elements in 3 ways:
+```
+Inline - using a style attribute in HTML elements
+Internal - using a <style> element in the HTML <head> section
+External - using one or more external CSS files
+```
