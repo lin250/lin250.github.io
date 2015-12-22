@@ -23,3 +23,4 @@ HTML `<pre>` element defines preformatted text.
 <body style="background-color:lightgrey;">
 ```
 Semantic html is using html to reinforce structural meaning. It’s about using tags, class names, and ids that reinforce the meaning of the content within the tags.
+`<b><em><i><small><strong><sub><sup><ins><del><mark>`
