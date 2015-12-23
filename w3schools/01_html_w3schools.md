@@ -86,3 +86,9 @@ _self|Opens the linked document in the same frame as it was clicked (this is def
 _parent|Opens the linked document in the parent frame
 _top|Opens the linked document in the full body of the window
 framename|Opens the linked document in a named frame
+Bookmark:
+```
+<h2 id="tips">Useful Tips Section</h2>
+<a href="#tips">Visit the Useful Tips Section</a>
+<a href="html_tips.html#tips">Visit the Useful Tips Section</a>
+```
