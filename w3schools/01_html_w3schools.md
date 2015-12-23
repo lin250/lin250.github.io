@@ -65,6 +65,7 @@ External - using one or more external CSS files
   - CSS border property defines a visible border around an HTML element
   - CSS padding property defines a padding (space) inside the border
   - CSS margin property defines a margin (space) outside the border
+
 ---
 **id** and **class** Attribute:
 ```
