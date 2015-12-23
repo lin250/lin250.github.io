@@ -61,3 +61,8 @@ External - using one or more external CSS files
       <link rel="stylesheet" href="styles.css">
     </head>
 ```
+- CSS Box Model
+  - CSS border property defines a visible border around an HTML element
+  - CSS padding property defines a padding (space) inside the border
+  - CSS margin property defines a margin (space) outside the border
+
