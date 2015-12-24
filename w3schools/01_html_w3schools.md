@@ -108,4 +108,17 @@ Image Maps:
   <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
 </map>
 ```
-table heading`<th>`
+table heading`<th>`   
+```
+table, th, td {
+    border: 1px solid black;
+}
+```
+Remember to define borders for both the table and the table cells.  
+If you want the borders to collapse into one border, add CSS border-collapse:
+```
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+```
