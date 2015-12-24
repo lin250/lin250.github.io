@@ -128,4 +128,10 @@ th, td {
     padding: 15px;
 }
 ```
-By default, all major browsers display table headings as bold and centered.
+By default, all major browsers display table headings as bold and centered.  
+To left-align the table headings, use the CSS text-align property:
+```
+th {
+    text-align: left;
+}
+```
