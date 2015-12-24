@@ -303,4 +303,5 @@ The cat was playing in the garden.
 <button type="button" onclick="alert('Hello World!')">Click Me!</button>
 ```
 HTML5 added the following form elements:`<datalist><keygen><output>`  
-HTML5 added several new input types:color,date,datetime,datetime-local,email,month,number,range,search,tel,time,url,week
+HTML5 added several new input types:color,date,datetime,datetime-local,email,month,number,range,search,tel,time,url,week  
+Input Restrictions: disabled maxlength readonly size value  
