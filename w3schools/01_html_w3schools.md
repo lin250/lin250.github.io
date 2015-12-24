@@ -195,3 +195,7 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
   - `<h1> - <h6>`
   - `<p>`
   - `<form>`
+- Inline elements:
+  - `<span>`
+  - `<a>`
+  - `<img>`
