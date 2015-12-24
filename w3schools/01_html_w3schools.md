@@ -284,3 +284,15 @@ method|Specifies the HTTP method used when submitting the form (default: GET).
 name|Specifies a name used to identify the form (for DOM usage: document.forms.name).
 novalidate|Specifies that the browser should not validate the form.
 target|Specifies the target of the address in the action attribute (default: _self).
+```
+<form action="action_page.php">
+  <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat" selected>Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+  <input type="submit">
+</form>
+```
