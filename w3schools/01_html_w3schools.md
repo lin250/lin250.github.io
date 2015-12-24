@@ -200,4 +200,6 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
   - `<a>`
   - `<img>`
 
-^CSS float allows other divs appears in same row.
+^CSS float allows other divs appears in same row. Oherwise use clear:both;
+
+
