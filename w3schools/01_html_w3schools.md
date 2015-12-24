@@ -273,6 +273,7 @@ If the form is updating data, or includes sensitive information (password).
 POST offers better security because the submitted data is not visible in the page address.  
 The `<fieldset>` element groups related data in a form.  
 The `<legend>` element defines a caption for the `<fieldset>` element.  
+
 Attribute|Description
 ---|---
 accept-charset|Specifies the charset used in the submitted form (default: the page charset).
