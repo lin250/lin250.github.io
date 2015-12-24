@@ -108,3 +108,4 @@ Image Maps:
   <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
 </map>
 ```
+table heading`<th>`
