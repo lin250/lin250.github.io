@@ -92,3 +92,7 @@ Bookmark:
 <a href="#tips">Visit the Useful Tips Section</a>
 <a href="html_tips.html#tips">Visit the Useful Tips Section</a>
 ```
+If a browser cannot find an image, it will display the alt text
+
+Both the width, height, and style attributes are valid in the latest HTML5 standard.  
+We suggest you use the style attribute. It prevents styles sheets from changing the original size of images.
