@@ -258,3 +258,5 @@ Charset
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 ```
+The `<input>` element is the most important form element.  
+The `<input>` element has many variations, depending on the type attribute: text, radio, submit.
