@@ -209,4 +209,9 @@ HTML5 offers new semantic elements that define different parts of a web page:
 **Iframe**
 ```
 <iframe src="URL"></iframe>
+
+style="border:none"
+
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+<p><a href="http://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ```
