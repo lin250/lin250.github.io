@@ -245,3 +245,10 @@ The <base> element specifies the base URL and base target for all relative URLs 
 
 Many mathematical, arrow, and currency symbols.
 
+Charset
+```
+<!--For HTML4-->
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+<!--For HTML5-->
+<meta charset="UTF-8">
+```
