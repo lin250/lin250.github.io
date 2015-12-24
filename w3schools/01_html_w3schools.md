@@ -260,7 +260,7 @@ Charset
 ```
 ##Form
 The `<input>` element is the most important form element.  
-The `<input>` element has many variations, depending on the type attribute: text, radio, submit.  
+The `<input>` element has many variations, depending on the type attribute: text, password, radio, checkbox, button, submit.  
 If the action attribute is omitted, the action is set to the current page.  
 You can use GET (the default method):  
 If the form submission is passive (like a search engine query), and without sensitive information.  
