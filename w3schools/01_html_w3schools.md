@@ -242,3 +242,6 @@ The <base> element specifies the base URL and base target for all relative URLs 
 `€`|`euro`|`&euro;`|`&#8364;`
 `©`|`copyright`|`&copy;`|`&#169;`
 `®`|`registered trademark`|`&reg;`|`&#174;`
+
+Many mathematical, arrow, and currency symbols.
+
