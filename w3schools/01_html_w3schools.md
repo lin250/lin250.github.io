@@ -225,3 +225,9 @@ Refresh document every 30 seconds:
 ```
 <meta http-equiv="refresh" content="30">
 ```
+The <base> element specifies the base URL and base target for all relative URLs in a page:
+```
+<base href="http://www.w3schools.com/images/" target="_blank">
+```
+
+
