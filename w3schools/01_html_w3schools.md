@@ -144,3 +144,15 @@ table {
 colspan rowspan
 
 `<caption>Monthly savings</caption>`
+```
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+```
