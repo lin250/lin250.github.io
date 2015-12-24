@@ -135,3 +135,9 @@ th {
     text-align: left;
 }
 ```
+Border spacing specifies the space between the cells.
+```
+table {
+    border-spacing: 5px;
+}
+```
