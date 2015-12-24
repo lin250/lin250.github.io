@@ -156,3 +156,17 @@ table#t01 th {
     background-color: black;
 }
 ```
+**Unordered HTML Lists**
+```
+<ul style="list-style-type:disc">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+```
+Style|Description
+---|---
+list-style-type:disc|The list items will be marked with bullets (default)
+list-style-type:circle|The list items will be marked with circles
+list-style-type:square|The list items will be marked with squares
+list-style-type:none|The list items will not be marked
