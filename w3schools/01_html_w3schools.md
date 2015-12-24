@@ -199,3 +199,4 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
   - `<span>`
   - `<a>`
   - `<img>`
+^CSS float allows other divs appears in same row.
