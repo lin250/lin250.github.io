@@ -229,7 +229,7 @@ The <base> element specifies the base URL and base target for all relative URLs 
 ```
 <base href="http://www.w3schools.com/images/" target="_blank">
 ```
-
+##HTML Character Entities
 `Result`|`Description`|`Entity Name`|`Entity Number`
 ---|---|---|---
 ` `|`non-breaking space`|`&nbsp;`|`&#160;`
