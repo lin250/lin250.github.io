@@ -220,3 +220,8 @@ All modern browsers support the following 140 color names
 Color HEX|Color RGB|Color Name
 ----|----|----
 `#FF0000`|rgb(255,0,0)|Red
+
+Refresh document every 30 seconds:
+```
+<meta http-equiv="refresh" content="30">
+```
