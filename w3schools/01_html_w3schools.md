@@ -170,4 +170,18 @@ list-style-type:disc|The list items will be marked with bullets (default)
 list-style-type:circle|The list items will be marked with circles
 list-style-type:square|The list items will be marked with squares
 list-style-type:none|The list items will not be marked
-test
+**Ordered HTML Lists**
+```
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+```
+Type|Description
+-|-
+type="1"|The list items will be numbered with numbers (default)
+type="A"|The list items will be numbered with uppercase letters
+type="a"|The list items will be numbered with lowercase letters
+type="I"|The list items will be numbered with uppercase roman numbers
+type="i"|The list items will be numbered with lowercase roman numbers
