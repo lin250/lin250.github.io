@@ -305,3 +305,9 @@ The cat was playing in the garden.
 HTML5 added the following form elements:`<datalist><keygen><output>`  
 HTML5 added several new input types:color,date,datetime,datetime-local,email,month,number,range,search,tel,time,url,week  
 Input Restrictions: disabled maxlength readonly size value  
+##SVG and Canvas
+SVG stands for Scalable Vector Graphics, XML based, W3C recommendation.
+Resolution independent, Support for event handlers.
+
+Canvas is rendered pixel by pixel. If its position should be changed, the entire scene needs to be redrawn.  
+Save the resulting image as .png or .jpg. Well suited for graphic-intensive games.
