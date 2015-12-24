@@ -122,3 +122,9 @@ table, th, td {
     border-collapse: collapse;
 }
 ```
+If you do not specify a padding, the table cells will be displayed without padding.
+```
+th, td {
+    padding: 15px;
+}
+```
