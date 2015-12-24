@@ -258,5 +258,17 @@ Charset
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 ```
+##Form
 The `<input>` element is the most important form element.  
-The `<input>` element has many variations, depending on the type attribute: text, radio, submit.
+The `<input>` element has many variations, depending on the type attribute: text, radio, submit.  
+If the action attribute is omitted, the action is set to the current page.  
+You can use GET (the default method):  
+If the form submission is passive (like a search engine query), and without sensitive information.  
+When you use GET, the form data will be visible in the page address:
+```
+action_page.php?firstname=Mickey&lastname=Mouse
+```
+You should use POST:  
+If the form is updating data, or includes sensitive information (password).  
+POST offers better security because the submitted data is not visible in the page address.  
+
