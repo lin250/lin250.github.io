@@ -186,6 +186,6 @@ type="a"|The list items will be numbered with lowercase letters
 type="I"|The list items will be numbered with uppercase roman numbers
 type="i"|The list items will be numbered with lowercase roman numbers
 **Description Lists**  
-The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term.  
+The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term.  
 **Nested Lists**  
 **Horizontal Lists**  
