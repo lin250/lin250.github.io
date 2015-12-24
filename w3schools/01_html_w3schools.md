@@ -215,3 +215,7 @@ style="border:none"
 <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
 <p><a href="http://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
 ```
+All modern browsers support the following 140 color names 
+Color HEX|Color RGB|Color Name
+---|---|---
+#FF0000|rgb(255,0,0)|Red
