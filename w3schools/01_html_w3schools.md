@@ -273,3 +273,13 @@ If the form is updating data, or includes sensitive information (password).
 POST offers better security because the submitted data is not visible in the page address.  
 The `<fieldset>` element groups related data in a form.  
 The `<legend>` element defines a caption for the `<fieldset>` element.  
+Attribute|Description
+---|---
+accept-charset|Specifies the charset used in the submitted form (default: the page charset).
+action|Specifies an address (url) where to submit the form (default: the submitting page).
+autocomplete|Specifies if the browser should autocomplete the form (default: on).
+enctype|Specifies the encoding of the submitted data (default: is url-encoded).
+method|Specifies the HTTP method used when submitting the form (default: GET).
+name|Specifies a name used to identify the form (for DOM usage: document.forms.name).
+novalidate|Specifies that the browser should not validate the form.
+target|Specifies the target of the address in the action attribute (default: _self).
