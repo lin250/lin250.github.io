@@ -96,3 +96,15 @@ If a browser cannot find an image, it will display the alt text
 
 Both the width, height, and style attributes are valid in the latest HTML5 standard.  
 We suggest you use the style attribute. It prevents styles sheets from changing the original size of images.
+
+Use the CSS float property to let the image float.
+
+Image Maps:
+```
+<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+```
