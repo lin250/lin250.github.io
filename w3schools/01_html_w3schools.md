@@ -189,3 +189,9 @@ type="i"|The list items will be numbered with lowercase roman numbers
 The `<dl>` tag defines the description list, the `<dt>` tag defines the term (name), and the `<dd>` tag describes each term.  
 **Nested Lists**  
 **Horizontal Lists**  
+
+- Block-level elements:
+  - `<div>`
+  - `<h1> - <h6>`
+  - `<p>`
+  - `<form>`
