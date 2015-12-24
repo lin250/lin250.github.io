@@ -295,4 +295,11 @@ target|Specifies the target of the address in the action attribute (default: _se
   <br><br>
   <input type="submit">
 </form>
+
+<textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
 ```
+HTML5 added the following form elements:`<datalist><keygen><output>`
