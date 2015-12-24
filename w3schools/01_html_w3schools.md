@@ -231,7 +231,7 @@ The <base> element specifies the base URL and base target for all relative URLs 
 ```
 
 `Result`|`Description`|`Entity Name`|`Entity Number`
---|--|--|--
+---|---|---|---
 ` `|`non-breaking space`|`&nbsp;`|`&#160;`
 `<`|`less than`|`&lt;`|`&#60;`
 `>`|`greater than`|`&gt;`|`&#62;`
@@ -242,4 +242,3 @@ The <base> element specifies the base URL and base target for all relative URLs 
 `€`|`euro`|`&euro;`|`&#8364;`
 `©`|`copyright`|`&copy;`|`&#169;`
 `®`|`registered trademark`|`&reg;`|`&#174;`
-
