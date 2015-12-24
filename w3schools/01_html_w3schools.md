@@ -128,3 +128,4 @@ th, td {
     padding: 15px;
 }
 ```
+By default, all major browsers display table headings as bold and centered.
