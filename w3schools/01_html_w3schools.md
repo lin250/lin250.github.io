@@ -179,7 +179,7 @@ list-style-type:none|The list items will not be marked
 </ol>
 ```
 Type|Description
--|-
+--|--
 type="1"|The list items will be numbered with numbers (default)
 type="A"|The list items will be numbered with uppercase letters
 type="a"|The list items will be numbered with lowercase letters
