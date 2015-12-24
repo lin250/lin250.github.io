@@ -202,4 +202,5 @@ The `<dl>` tag defines the description list, the `<dt>` tag defines the term (na
 
 ^CSS float allows other divs appears in same row. Oherwise use clear:both;
 
+HTML5 offers new semantic elements that define different parts of a web page:`<header><nav><section><article><aside><footer><details><summary>`
 
