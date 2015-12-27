@@ -1,5 +1,16 @@
 ##★ git docs
 http://git-scm.com/docs
+##★  quick start
+http://git-scm.com/docs
+```
+cd tmp
+$ git clone +.git
+$ cd +/
+$ git status
+$ git add *
+$ git commit -m "add jsPro3rd source"
+$ git push origin master
+```
 ##★ github git cheat sheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 ###install
 [Windows](https://windows.github.com) [All Platforms](All Platforms)
