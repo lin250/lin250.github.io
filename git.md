@@ -1,6 +1,6 @@
-##git docs
+##★ git docs
 http://git-scm.com/docs
-##github git cheat sheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+##★ github git cheat sheet [pdf](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 ###install
 [Windows](https://windows.github.com) [All Platforms](All Platforms)
 ###configure
