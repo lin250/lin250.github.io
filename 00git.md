@@ -1,7 +1,6 @@
 ##★ git docs
 http://git-scm.com/docs
 ##★  quick start
-http://git-scm.com/docs
 ```
 cd tmp
 $ git clone +.git
