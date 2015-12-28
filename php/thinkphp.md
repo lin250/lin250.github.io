@@ -29,4 +29,19 @@ Application\Home\Conf\config.php
 'DB_PORT'=>3306,// 端口
 //'DB_PREFIX'=>'think_',// 数据库表前缀
 'DB_CHARSET'=>'utf8',// 数据库字符集
+
+Application\Home\View\Form\add.html
+<FORM method="post" action="__URL__/insert">
+标题：<INPUT type="text" name="title"><br/>
+内容：<TEXTAREA name="content" rows="5" cols="45"></TEXTAREA><br/>
+<INPUT type="submit" value="提交">
+</FORM>
+Application\Home\Controller\FormController.class.php
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class FormController extends Controller{
+}
+http://localhost/index.php/home/Form/add
+ThinkPHP在没有找到对应操作方法的情况下，会检查是否存在对应的模板文件
 ```
