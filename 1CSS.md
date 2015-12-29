@@ -4,4 +4,4 @@ A CSS declaration always ends with a semicolon, and declaration blocks are surro
 ```
 CSS comment starts with /* and ends with */.
 ```
-Do NOT start an ID name with a number!
+Do NOT start an id or class name with a number!
