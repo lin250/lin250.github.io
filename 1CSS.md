@@ -2,6 +2,12 @@
 A CSS rule-set consists of a selector and a declaration block:
 A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
 ```
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
 CSS comment starts with /* and ends with */.
 ```
-Do NOT start an id or class name with a number!
+Do NOT start an id or class name with a number!  
+To group selectors, separate each selector with a comma.  
+An inline style (inside a specific HTML element) has the highest priority
