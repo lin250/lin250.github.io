@@ -23,3 +23,4 @@ body {
     background: #ffffff url("img_tree.png") no-repeat right top;
 }
 ```
+The margins are completely transparent - and cannot have a background color!  
