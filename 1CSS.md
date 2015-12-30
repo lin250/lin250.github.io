@@ -25,3 +25,4 @@ body {
 ```
 The margins are completely transparent - and cannot have a background color!  
 You can set the margin property to auto to horizontally center the element within its container.  
+The height and width properties do not include padding, borders, or margins.  
