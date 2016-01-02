@@ -25,6 +25,4 @@ body {
 ```
 The margins are completely transparent - and cannot have a background color!  
 You can set the margin property to auto to horizontally center the element within its container.  
-The height and width properties do not include padding, borders, or margins.  
-Hide an Element - display:none or visibility:hidden?  
-The position property specifies the type of positioning method used for an element (static, relative, fixed or absolute).  
+When aligning elements with float, always define margin and padding for the `<body>` element. This is to avoid visual differences in different browsers. Set the !DOCTYPE declaration when using float.
