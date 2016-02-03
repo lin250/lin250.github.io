@@ -37,3 +37,19 @@ Content in the first column | Content in the second column
 
 :dart:
 [emoji](http://www.emoji-cheat-sheet.com/)
+
+[youtube demo]()
+```
+var data1=[10,20,30];
+var canvas=d3.select("body")
+					.append("svg")
+					.attr("width",500)
+					.attr("height",500);
+var bars=canvas.selectAll("rect")
+					.data(data1)
+					.enter()
+					.append("rect")
+					.attr("width",function(d){return d*10;})
+					.attr("y",function(d,i){return i*10;})
+					.attr("height",20);
+```
