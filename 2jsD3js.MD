@@ -39,7 +39,7 @@ Content in the first column | Content in the second column
 [emoji](http://www.emoji-cheat-sheet.com/)
 
 [youtube demo]()
-```
+```javascript
 var data1=[10,20,30];
 var canvas=d3.select("body")
 					.append("svg")
