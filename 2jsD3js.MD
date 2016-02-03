@@ -52,4 +52,8 @@ var bars=canvas.selectAll("rect")
 					.attr("width",function(d){return d*10;})
 					.attr("y",function(d,i){return i*10;})
 					.attr("height",20);
+
+var color = d3.scale.linear()
+    .domain([-1, 0, 1])
+    .range(["red", "white", "green"]);
 ```
