@@ -57,3 +57,14 @@ var color = d3.scale.linear()
     .domain([-1, 0, 1])
     .range(["red", "white", "green"]);
 ```
+```javascript
+//transform
+var canvas = d3.select("body")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    // add ability to group svg elements together.
+    .append("g")
+    // shift canvas to a little to the right x increase to 20
+    .attr("transform", "translate(20, 0)");
+```
