@@ -78,3 +78,10 @@ $ git merge [bookmark]/[branch]
 $ git push [alias] [branch]
 $ git pull
 ```
+###Branch
+```
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+```
