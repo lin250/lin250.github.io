@@ -15,6 +15,7 @@ $ git push origin master
 [Windows](https://windows.github.com) [All Platforms](All Platforms)
 ###configure
 ```
+C:\Users\china\.gitconfig
 $ git config --global user.name "[name]"
 $ git config --global user.email "[email address]"
 ```
