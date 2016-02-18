@@ -70,6 +70,7 @@ $ git show [commit]
 ```
 $ git reset [commit]
 $ git reset --hard [commit]
+git reset --hard commit_id
 ```
 ###SYNCHRONIZE CHANGES
 ```
