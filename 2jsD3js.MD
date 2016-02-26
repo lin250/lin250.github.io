@@ -73,3 +73,8 @@ var canvas = d3.select("body")
 ```
 http://bl.ocks.org/mbostock/3244058
 ```
+```javascript
+//Interactive Data Visualization for the Web
+//http://chimera.labs.oreilly.com/books/1230000000345
+//http://alignedleft.com/tutorials/d3
+```
