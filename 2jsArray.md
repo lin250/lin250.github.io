@@ -10,4 +10,6 @@ var person = {
     hasCar: true,
     zipcode: null
 };
+//启用strict模式的方法是在JavaScript代码的第一行写上：
+'use strict';
 ```
