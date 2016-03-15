@@ -14,4 +14,6 @@ var person = {
 'use strict';
 //没有var 报ReferenceError错误
 //不用var申明的变量会被视为全局变量
+
+//slice()就是对应String的substring()版本，它截取Array的部分元素，然后返回一个新的Array
 ```
