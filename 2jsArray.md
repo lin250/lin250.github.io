@@ -43,4 +43,7 @@ var arr = ['A', 'B', 'C'];
 var added = arr.concat([1, 2, 3]);
 added; // ['A', 'B', 'C', 1, 2, 3]
 arr; // ['A', 'B', 'C']
+
+var arr = [[1, 2, 3], [400, 500, 600], '-'];
+var x = arr[1][1];
 ```
