@@ -59,4 +59,5 @@ xiaohong的属性名middle-school不是一个有效的变量，就需要用''括
 xiaohong['middle-school']; // 'No.1 Middle School'
 xiaohong['name']; // '小红'
 xiaohong.name; // '小红'
+//访问不存在的属性不报错，而是返回undefined
 ```
