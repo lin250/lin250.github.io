@@ -37,4 +37,10 @@ arr; // ['Microsoft', 'Apple', 'Oracle']
 // 只添加,不删除:
 arr.splice(2, 0, 'Google', 'Facebook'); // 返回[],因为没有删除任何元素
 arr; // ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']
+
+//concat()方法把当前的Array和另一个Array连接起来，并返回一个新的Array：
+var arr = ['A', 'B', 'C'];
+var added = arr.concat([1, 2, 3]);
+added; // ['A', 'B', 'C', 1, 2, 3]
+arr; // ['A', 'B', 'C']
 ```
