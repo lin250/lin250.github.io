@@ -60,4 +60,16 @@ xiaohong['middle-school']; // 'No.1 Middle School'
 xiaohong['name']; // '小红'
 xiaohong.name; // '小红'
 //访问不存在的属性不报错，而是返回undefined
+
+var arr = [10, 20, 1, 2];
+arr.sort(function (x, y) {
+    if (x < y) {
+        return -1;
+    }
+    if (x > y) {
+        return 1;
+    }
+    return 0;
+});//modify
+
 ```
