@@ -18,4 +18,8 @@ function string2int(s) {
 var arr = s.split('').map(function(x){return x*1});
 return arr.reduce(function(x,y){return x*10+y});
 }
+
+function normalize(arr) {
+return arr.map(function(x){return x[0].toUpperCase()+x.substring(1).toLowerCase()});
+}
 ```
