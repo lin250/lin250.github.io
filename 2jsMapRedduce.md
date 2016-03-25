@@ -13,4 +13,9 @@ var arr = [1, 3, 5, 7, 9];
 arr.reduce(function (x, y) {
     return x + y;
 }); // 25
+
+function string2int(s) {
+var arr = s.split('').map(function(x){return x*1});
+return arr.reduce(function(x,y){return x*10+y});
+}
 ```
