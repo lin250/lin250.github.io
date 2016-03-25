@@ -70,6 +70,13 @@ arr.sort(function (x, y) {
         return 1;
     }
     return 0;
-});//modify
+});
+
+//sort()方法会直接对Array进行修改，它返回的结果仍是当前Array：
+var a1 = ['B', 'A', 'C'];
+var a2 = a1.sort();
+a1; // ['A', 'B', 'C']
+a2; // ['A', 'B', 'C']
+a1 === a2; // true, a1和a2是同一对象
 
 ```
