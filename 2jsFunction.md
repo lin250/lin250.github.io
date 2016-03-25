@@ -24,4 +24,6 @@ function foo() {
     }
     i += 1; // SyntaxError
 }
+
+//要保证this指向正确，必须用obj.xxx()的形式调用！
 ```
