@@ -29,4 +29,11 @@ b === undefined; //false
 b === null; //true
 a == b; //true
 a === b; //false
+
+/////
+// String to int
+////
+Number('3')
+parseInt('3') //多参数
+'3'*1
 ```
