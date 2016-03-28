@@ -86,4 +86,9 @@ a1 === a2; // true, a1和a2是同一对象
 //判断null请使用myVar === null；
 //判断某个全局变量是否存在用typeof window.myVar === 'undefined'；
 //函数内部判断某个变量是否存在用typeof myVar === 'undefined'。
+//任何对象都有toString()方法吗？null和undefined就没有！确实如此，这两个特殊值要除外，虽然null还伪装成了object类型。
+//number对象调用toString()报SyntaxError：
+123.toString(); // SyntaxError
+123..toString(); // '123', 注意是两个点！
+(123).toString(); // '123'
 ```
