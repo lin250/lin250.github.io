@@ -79,4 +79,11 @@ a1; // ['A', 'B', 'C']
 a2; // ['A', 'B', 'C']
 a1 === a2; // true, a1和a2是同一对象
 
+
+
+//typeof操作符可以判断出number、boolean、string、function和undefined；
+//判断Array要使用Array.isArray(arr)；
+//判断null请使用myVar === null；
+//判断某个全局变量是否存在用typeof window.myVar === 'undefined'；
+//函数内部判断某个变量是否存在用typeof myVar === 'undefined'。
 ```
