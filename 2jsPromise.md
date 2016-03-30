@@ -1,3 +1,4 @@
+```javascript
 var Count = 0;
 
 function testPromise() {
@@ -38,3 +39,4 @@ testPromise()
 //
 // 1 Promise fulfilled
 // 2 Promise fulfilled
+```
